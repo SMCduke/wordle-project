@@ -1,2 +1,2 @@
-print("h")
+print("This is Wordle")
 
