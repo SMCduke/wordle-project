@@ -17,7 +17,10 @@ for x in range(1,7):
         print(chosen_word)
         print("Congrats you win!")
         break
-    
+    else:
+        for i in range(len(guess)):
+            if guess[i] == chosen_word[i]:
+                print(f"we have a green letter {guess[i]}")
 
     
     
