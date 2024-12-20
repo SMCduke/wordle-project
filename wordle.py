@@ -10,13 +10,15 @@ chosen_word = random.choice(word_list)
 for x in range(1,7):
     guess = input("Guess here: ")
     guess = guess.lower()
-    print(x)
+    
 
     if guess == chosen_word:
+        print("The word is")
         print(chosen_word)
         print("Congrats you win!")
         break
     
+
     
     
     
