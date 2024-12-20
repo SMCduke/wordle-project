@@ -22,34 +22,8 @@ for x in range(1,7):
             if guess[i] == chosen_word[i]:
                 print(f"we have a green letter {guess[i]}")
 
-    
-    
-    
+            elif guess[i] in chosen_word:
+                print(f"we have a yellow letter {guess[i]}")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Color to letters
-
-
-
-# guesses = []
-# guesses.append(guess)
-
-# # guesses now equals ["words"]
-
-# # print each letter and index and index in a word
-# for i in range(len(guess)):
-#     print(i, guess[i])
+            else:
+                print(f"We have a black letter {guess[i]}")
