@@ -2,7 +2,7 @@ import random
 
 print("You have six guesses to figure out a five letter word")
 
-word_list = ["apple", "berry", "charm", "daisy", "eagle"]
+word_list = ["apple", "berry", "charm", "daisy", "eagle", "happy", "mayor", "green"]
 
 chosen_word = random.choice(word_list)
 
@@ -12,8 +12,13 @@ for x in range(6):
     print(x)
 
     if guess == chosen_word:
+        print(chosen_word)
         print("Congrat you win!")
         break
+    
+    
+    
+
 
 
 
