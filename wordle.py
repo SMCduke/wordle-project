@@ -91,7 +91,6 @@ word_list = ["apple", "berry", "charm", "daisy", "eagle", "happy", "mayor", "gre
 
 chosen_word = random.choice(word_list)
 
-color_list = random.word()
 
 
 for x in range(1,7):
