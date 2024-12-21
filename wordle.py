@@ -1,7 +1,6 @@
 import random
 
 
-
 print("You have six guesses to figure out a five letter word")
 
 word_list = ["apple", "berry", "charm", "daisy", "eagle", "happy", "mayor", "green", "alpha", "every", "nicer"]
