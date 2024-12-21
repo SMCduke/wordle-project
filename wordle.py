@@ -1,5 +1,7 @@
 import random
 
+
+
 print("You have six guesses to figure out a five letter word")
 
 word_list = ["apple", "berry", "charm", "daisy", "eagle", "happy", "mayor", "green", "alpha", "every", "nicer"]
@@ -27,3 +29,5 @@ for x in range(1,7):
 
             else:
                 print(f"We have a black letter {guess[i]}", end = " ")
+
+                
