@@ -10,7 +10,7 @@ chosen_word = random.choice(word_list)
 for x in range(1,7):
     guess = input("Guess here: ")
     guess = guess.lower()
-    
+    print(chosen_word)
 
     if guess == chosen_word:
         print("The word is")
@@ -26,4 +26,4 @@ for x in range(1,7):
                 print(f"we have a yellow letter {guess[i]}")
 
             else:
-                print(f"We have a black letter {guess[i]}")
+                print(f"We have a black letter {guess[i]}", end = " ")
